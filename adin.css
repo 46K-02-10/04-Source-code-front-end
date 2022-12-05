@@ -41,16 +41,7 @@ table tr:nth-child(1){
     border-right: 0.5px dashed;
     align-items: center;
 }
-.logout{
-    text-decoration: none;
-    font-size: 28px;
-    color: #ffffff;
-    line-height: 60px;
-    margin-left: 30px;
-    transform: translateY(17px);
-    margin-right: 19px;
-    left:-27px;
-}
+
 .nav{
     display: flex;  
     right: 0;
@@ -104,6 +95,7 @@ p{
     margin: auto;
 }
 .logout{
+    width:30px;
     position: absolute;
     right: 0;
     text-decoration: none;
