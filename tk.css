@@ -1,0 +1,240 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: monospace;
+    font-weight: lighter;
+    left: 0;
+    right: 0;
+}
+/* .icon{
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 50px;
+    color: #A0522D;
+    font-weight: bolder;
+    margin: auto;
+} */
+#header{
+    height: 60px;
+    background-color: #fef8f9;
+    display:flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;  
+}
+
+.search_{
+    display: flex;
+    top: 50%;
+    transform: translateY(10px);
+    height: 40px;
+    margin-left: 40px;
+}
+#header .search-icon{
+    color: #A0522D;
+    font-size: 20px;
+    padding: 0 15x;
+    line-height: 43px;
+}
+.search:hover{
+    background-color: rgb(223, 92, 92);
+}
+.search{
+    cursor: pointer;
+    padding: 0 15px;
+    background-color: #ffffff;
+    border-left: 1px solid #B22222;
+    border-top: 1px solid #B22222;
+    border-bottom: 1px solid #B22222;
+
+}
+#input{
+    width: 350px;
+    font-size: large;
+    height: 40px;
+    line-height: 60px;
+    margin: auto;
+}
+.logout{
+    text-decoration: none;
+    font-size: 30px;
+    color: #A0522D;
+    line-height: 60px;
+    margin-left: 30px;
+    transform: translateY(13px);
+    margin-right: 19px;
+}
+  input[type=text]{
+    color: rgba(67, 63, 63, 0.773);
+    font-size: smaller;
+  }
+  .circle- {
+    background: #E9967A;
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    margin: 1em;
+  }
+  #circle{
+    display: flex;
+    margin-top: 60px;
+
+  }
+h1{
+    padding: 5px 0;
+}
+#content{
+    margin-left: 30px;
+    /* position: relative; */
+    display: flex;
+}
+#content1{
+    /* position: relative; */
+    
+    width: 100%;
+
+}
+#date{
+    width: 250px;
+    height:35px;
+    background-color: #F3F6F9;
+    border: 1px black solid;
+    border-radius: 3px;
+    font-size: larger;
+    display: flex;
+    margin-top: 11px;
+}
+#p1{
+    padding: 0 20px;
+    line-height: 35px;
+    font-size: 17px;
+}
+#cal{
+    font-size: 20px;
+    line-height: 35px;
+    padding-left: 74px;
+}
+#chart{
+    /* position: absolute; */
+    width: 95%;
+    height: 440px;
+    border: 1px solid #B22222;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+.note{
+    height: 3px;
+    border-radius: 3px;
+    width: 20px;
+    margin-top: 7.5px;
+    padding-left: 10px;
+}
+.note-{
+    display: flex;
+    margin-left: 500px;
+
+}
+#myChart{
+    padding-top:10px;
+    margin: auto;
+    width: 70%;
+    /* max-width: 900px; */
+}
+h2{
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+#content2{
+    width: 55%;
+    height: 500px;
+    background-color: #fef8f9;
+    border: 3px solid #B22222;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 20px;
+
+}
+.cc{
+    background: #FFDEAD;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+}
+.icon-{
+    text-align: center;
+    line-height: 46px;
+    font-size: 35px;
+    font-weight:bold;
+    margin: auto;
+  
+}
+.if{
+    display: flex;
+    margin-top: 10px;
+}
+h3{
+    line-height: 96px;
+    font-weight: 300;
+    font-size: 25px;
+    margin: auto;
+    
+}
+.n{
+    font-size: larger;
+    margin-left: 5px;
+}
+.box{
+    width: 270px;
+    height: 90px;
+    background-color: #fef8f9;
+    border-radius: 3px;
+    display: flex;
+    border: #B22222 1px solid;
+    padding-bottom: 10px;
+
+}
+#footer{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    position: relative;
+}
+ #n2{
+    font-size: 20px;
+    color: #B22222;
+    font-weight: 900;
+ }
+ #n1{
+    font-size: 20px;
+    color: #050201;
+ }
+
+.ic{
+    color: #B22222;
+    font-size: 50px;
+    padding-left: 20px;
+}
+.tt{
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+    padding-left: 110px;
+}
+.logout{
+    position: absolute;
+    left: -27px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #b22222;
+    line-height: 60px;
+    margin-left: 30px;
+    transform: translateY(13px);
+    margin-right: 19px;
+}

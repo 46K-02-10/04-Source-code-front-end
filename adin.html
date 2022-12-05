@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="adin.css">
+  <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+  <title>Thêm món</title>
+</head>
+<body>
+  <div id="header">
+    <div class="search_">
+        <div class="search">
+            <i class="search-icon ti-search"></i>
+        </div>
+        <input type="text" value="Nhập mã . . ." id="input">
+    </div>
+    <!-- <a href="login.html" class="logout ti-share-alt"><i></i></a> -->
+
+      <a href="summary.html" class=" logout ti-arrow-circle-left"><i></i></a>
+
+  
+</div>
+  <div id="header-">
+    <div id="edit">
+      <div class="edit1">
+        <i><a href="#add-in" class="icon ti-plus"></a></i>
+        <p>Thêm</p>
+      </div>
+      <div class="edit1">
+        <i><a href="#fix-in" class="icon ti-pencil-alt"></a></i>
+        <p>Sửa</p>
+      </div>
+      <div class="edit1">
+        <i><a href="#remove-in" class="icon ti-trash"></a></i>
+        <p>Xóa</p>
+      </div>
+      <div class="edit1" id="setting">
+        <i><a href="" class="icon ti-settings" ></a></i>
+        <p>Kết xuất dữ liệu</p>
+      </div>
+    </div>
+  </div>
+<div id="content">
+  <div class="table">
+    <table>
+      <tr>
+          <th>STT</th>
+          <th>Mã món</th>
+          <th>Tên món</th>
+          <th>Mã NVL</th>
+          <th>Tên NVL</th>
+          <th>Số lượng</th>
+          <th>Đơn vị</th>
+          <th>Loại nước</th>
+          <th>Tình trạng</th>
+          <th>Ghi chú</th>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>S20</td>
+          <td>CAFE CARAMEL</td>
+          <td>IN10</td>
+          <td>CAFE</td>
+          <td>20</td>
+          <td>ML</td>
+          <td>CAFE</td>
+          <td>Đã thêm</td>
+          <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>S21</td>
+        <td>CAFE BƠ</td>
+        <td>IN10</td>
+        <td>CAFE</td>
+        <td>20</td>
+        <td>ML</td>
+        <td>CAFE</td>
+        <td>Đã thêm</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>S22</td>
+        <td>TRÀ ỔI</td>
+        <td>IN22</td>
+        <td>TRÀ</td>
+        <td>100</td>
+        <td>ML</td>
+        <td>TRÀ</td>
+        <td>Đã thêm</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>S23</td>
+        <td>TRÀ CHANH</td>
+        <td>IN22</td>
+        <td>TRÀ</td>
+        <td>100</td>
+        <td>ML</td>
+        <td>TRÀ</td>
+        <td>Đã thêm</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>S24</td>
+        <td>ỔI SMT</td>
+        <td>IN23</td>
+        <td>ỔI</td>
+        <td>300</td>
+        <td>GR</td>
+        <td>SMT</td>
+        <td>Đã thêm</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>S25</td>
+        <td>TRÀ XANH LATTE</td>
+        <td>IN24</td>
+        <td>TRÀ XANH</td>
+        <td>100</td>
+        <td>ML</td>
+        <td>TRÀ</td>
+        <td>Đã thêm </td>
+        <td></td>
+      </tr>
+  </table>
+  </div>
+  <div class="form" id="add-in">
+    <h1 class="h">Thêm món</h1>
+    <div class="form-">
+      <div class="form1">
+        <form>
+          <label for="hsd">Mã món</label>
+          <input type="text" id="mm">
+          <label for="mnl">Tên món</label>
+          <input type="text" id="tm">
+          <label for="tnl">Mã NVL</label>
+          <input type="text" id="mnvl">
+          <label for="dv">Tên NVL</label>
+          <input type="text" id="tnvl">
+          <label for="mtt">Số lượng</label>
+          <input type="text" id="sl">
+        </form>
+      </div>
+      <div class="form2">
+        <form>
+          <label for="sl">Đơn vị</label>
+          <input type="text" id="dv">
+          <label for="ht">Loại nước</label>
+          <input type="text" id="ln">
+          <label for="k">Tình trạng</label>
+          <input type="text" id="tt">
+          <label for="gc">Ghi chú</label>
+          <input type="text" id="gc">
+          <button class="button">Thêm</button>
+        </form>
+      </div>
+    </div>.
+  </div>
+  <div id="fix-in" class="form">
+    <h2 class="h">Sửa món</h2>
+    <div class="form-">
+      <div class="form1">
+        <form>
+          <label for="hsd">Mã món</label>
+          <input type="text" id="mm">
+          <label for="mnl">Tên món</label>
+          <input type="text" id="tm">
+          <label for="tnl">Mã NVL</label>
+          <input type="text" id="mnvl">
+          <label for="dv">Tên NVL</label>
+          <input type="text" id="tnvl">
+          <label for="mtt">Số lượng</label>
+          <input type="text" id="sl">
+        </form>
+      </div>
+      <div class="form2">
+        <form>
+          <label for="sl">Đơn vị</label>
+          <input type="text" id="dv">
+          <label for="ht">Loại nước</label>
+          <input type="text" id="ln">
+          <label for="k">Tình trạng</label>
+          <input type="text" id="tt">
+          <label for="gc">Ghi chú</label>
+          <input type="text" id="gc">
+          <button class="button">Sửa</button>
+        </form>
+      </div>
+    </div>.
+  </div>
+  <div class="form" id="remove-in">
+    <h1 class="h">Xóa món</h1>
+    <div class="form-">
+      <div class="form2" id="form3">
+        <form>
+          <label for="mnl">Mã món</label>
+          <input type="text" id="mm">
+          <button class="button" id="re-button">Xóa</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

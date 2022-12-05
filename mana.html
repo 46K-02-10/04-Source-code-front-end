@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="mana.css">
+  <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="header">
+    <div class="search_">
+        <div class="search">
+            <i class="search-icon ti-search"></i>
+        </div>
+        <input type="text" value="Nhập mã . . ." id="input">
+    </div>
+    <a href="login.html" class="logout ti-share-alt"><i></i></a>
+    <div class="nav">
+      <!-- <a href="" class="logout ti-pencil-alt"><i></i></a> -->
+      <a href="login.html" class="logout ti-share-alt"><i></i></a>
+  </div>
+  </div>
+  <div id="header-">
+    <div id="edit">
+      <div class="edit1">
+        <i><a href="#add-in" class="icon ti-plus"></a></i>
+        <p>Thêm</p>
+      </div>
+      <div class="edit1">
+        <i><a href="#fix-in" class="icon ti-pencil-alt"></a></i>
+        <p>Sửa</p>
+      </div>
+      <div class="edit1">
+        <i><a href="#remove-in" class="icon ti-trash"></a></i>
+        <p>Xóa</p>
+      </div>
+      <div class="edit1" id="setting">
+        <i><a href="" class="icon ti-settings" ></a></i>
+        <p>Kết xuất dữ liệu</p>
+      </div>
+    </div>
+  </div>
+<div id="content">
+  <div class="table">
+    <table>
+      <tr>
+          <th>STT</th>
+          <th>Hạn sử dụng</th>
+          <th>Mã nguyên liệu</th>
+          <th>Tên nguyên liệu</th>
+          <th>Đơn vị</th>
+          <th>Mức tối thiểu</th>
+          <th>Số lượng</th>
+          <th>Hàng tồn</th>
+          <th>Kho</th>
+          <th>Ghi chú</th>
+      </tr>
+      <tr>
+          <td>1</td>
+          <td>1/10-10/10</td>
+          <td>IN001</td>
+          <td>Đường cát</td>
+          <td>Kg</td>
+          <td>5</td>
+          <td>4</td>
+          <td>3</td>
+          <td>KH01</td>
+          <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1/10-10/10</td>
+        <td>IN001</td>
+        <td>Đường cát</td>
+        <td>Kg</td>
+        <td>5</td>
+        <td>4</td>
+        <td>3</td>
+        <td>KH01</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1/10-10/10</td>
+        <td>IN001</td>
+        <td>Đường cát</td>
+        <td>Kg</td>
+        <td>5</td>
+        <td>4</td>
+        <td>3</td>
+        <td>KH01</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>1/10-10/10</td>
+        <td>IN001</td>
+        <td>Đường cát</td>
+        <td>Kg</td>
+        <td>5</td>
+        <td>4</td>
+        <td>3</td>
+        <td>KH01</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>1/10-10/10</td>
+        <td>IN001</td>
+        <td>Đường cát</td>
+        <td>Kg</td>
+        <td>5</td>
+        <td>4</td>
+        <td>3</td>
+        <td>KH01</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>1/10-10/10</td>
+        <td>IN001</td>
+        <td>Đường cát</td>
+        <td>Kg</td>
+        <td>5</td>
+        <td>4</td>
+        <td>3</td>
+        <td>KH01</td>
+        <td></td>
+      </tr>
+  </table>
+  </div>
+  <div class="form" id="add-in">
+    <h1 class="h">Thêm nguyên liệu</h1>
+    <div class="form-">
+      <div class="form1">
+        <form>
+          <label for="hsd">Hạn sử dụng</label>
+          <input type="text" id="hsd">
+          <label for="mnl">Mã nguyên liệu</label>
+          <input type="text" id="mnl">
+          <label for="tnl">Tên nguyên liệu</label>
+          <input type="text" id="tnl">
+          <label for="dv">Đơn vị</label>
+          <input type="text" id="dv">
+          <label for="mtt">Mức tối thiểu</label>
+          <input type="text" id="mtt">
+        </form>
+      </div>
+      <div class="form2">
+        <form>
+          <label for="sl">Số lượng</label>
+          <input type="text" id="sl">
+          <label for="ht">Hàng tồn</label>
+          <input type="text" id="ht">
+          <label for="k">Kho</label>
+          <input type="text" id="k">
+          <label for="gc">Ghi chú</label>
+          <input type="text" id="gc">
+          <button class="button">Thêm</button>
+        </form>
+      </div>
+    </div>.
+  </div>
+  <div id="fix-in" class="form">
+    <h2 class="h">Sửa nguyên liệu</h2>
+    <div class="form-">
+      <div class="form1">
+        <form>
+          <label for="hsd">Hạn sử dụng</label>
+          <input type="text" id="hsd">
+          <label for="mnl">Mã nguyên liệu</label>
+          <input type="text" id="mnl">
+          <label for="tnl">Tên nguyên liệu</label>
+          <input type="text" id="tnl">
+          <label for="dv">Đơn vị</label>
+          <input type="text" id="dv">
+          <label for="mtt">Mức tối thiểu</label>
+          <input type="text" id="mtt">
+        </form>
+      </div>
+      <div class="form2">
+        <form>
+          <label for="sl">Số lượng</label>
+          <input type="text" id="sl">
+          <label for="ht">Hàng tồn</label>
+          <input type="text" id="ht">
+          <label for="k">Kho</label>
+          <input type="text" id="k">
+          <label for="gc">Ghi chú</label>
+          <input type="text" id="gc">
+          <button class="button">Sửa</button>
+        </form>
+      </div>
+    </div>.
+  </div>
+  <div class="form" id="remove-in">
+    <h1 class="h">Xóa nguyên liệu</h1>
+    <div class="form-">
+      <div class="form2" id="form3">
+        <form>
+          <label for="mnl">Mã nguyên liệu</label>
+          <input type="text" id="mnl">
+          <button class="button" id="re-button">Xóa</button>
+        </form>
+      </div>
+    </div>.
+  </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

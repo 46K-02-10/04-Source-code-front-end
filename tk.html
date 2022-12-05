@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tk.css">
+  <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <title>Thống kê trong ngày</title>
+</head>
+<body>
+  <div id="header">
+    <div class="search_">
+        <div class="search">
+            <i class="search-icon ti-search"></i>
+
+        </div>
+        <input type="text" value="   Tìm kiếm . . ." id="input">
+    </div>
+    <a href="order.html" class=" logout ti-arrow-circle-left"><i></i></a>
+
+
+  </div>
+  <div id="content">
+      <div id="content1 " style="width:100%">
+        <div id="circle">
+          <div class="circle-"></div>
+          <div class="circle-"></div>
+          <div class="circle-"></div>
+      </div>
+      <h1>TỔNG QUAN BÁO CÁO</h1>
+      <p>Dữ liệu được tổng hợp đến hết ngày 1/2/2022</p>
+      <div id="date">
+        <p id="p1">01/02/2022</p>
+        <div class="icon ti-calendar" id="cal"></div>
+      </div>
+      <div id="chart">
+        <h2>Tình hình lợi nhuận và kinh doanh của cửa hàng</h2>
+        <div class="note-">
+          <div class="note"style="background-color:#B22222"></div>
+          <p class="n">Doanh thu</p>
+        </div>
+        <div class="note-">
+          <div class="note"style="background-color:#E9967A"></div>
+          <p class="n">Lợi nhuận</p>
+        </div>
+        
+        <canvas id="myChart"></canvas>
+
+      </div>
+    </div>
+    <div id="content2">
+      <div class="if">
+        <div class="cc">
+          <div class="icon- ti-shopping-cart" style="color: #8B4513; line-height:70px"></div>
+        </div>
+        <h3>100 đơn hàng bán ra</h3>
+      </div>
+      <div class="if">
+        <div class="cc" style="background-color:#dfcdf6 ;">
+          <div class="icon- ti-receipt" style="color: #7742bb; line-height:70px"></div>
+        </div>
+        <h3>90 đơn hàng hoàn thành</h3>
+      </div>
+      <div class="if">
+        <div class="cc" style="background-color:#cdf6d4 ;">
+          <div class="icon- ti-back-left" style="color: #34652c; line-height:70px"></div>
+        </div>
+        <h3>0 đơn hàng trả</h3>
+      </div>
+      <div class="if">
+        <div class="cc" style="background-color:#f6cdcf ;">
+          <div class="icon- ti-close" style="color: #c82c46; line-height:70px"></div>
+        </div>
+        <h3>10 đơn hàng hủy</h3>
+      </div>
+    </div>
+  </div>
+
+
+    <div id="footer">
+      <div class="box">
+        <i class="ic ti-mobile" style="line-height:90px"></i>
+        <div class="tt">
+            <p id="n2">3,892,376</p>
+            <p id="n1">Chuyển khoản</p>
+        </div>
+        
+      </div>
+      <div class="box">
+        <i class="ic ti-money" style="line-height:90px"></i>
+        <div class="tt">
+            <p id="n2">3,892,376</p>
+            <p id="n1">Tiền mặt</p>
+        </div>
+      </div>
+      <div class="box">
+        <i class="ic ti-bar-chart" style="line-height:90px"></i>
+        <div class="tt">
+            <p id="n2">3,892,376</p>
+            <p id="n1">Doanh thu ca</p>
+        </div>
+      </div>
+      <div class="box">
+        <i class="ic ti-server" style="line-height:90px"></i>
+        <div class="tt">
+            <p id="n2">3,892,376</p>
+            <p id="n1">Tổng doanh thu</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      var xValues = ["8:00","10:00","12:00","14:00","16:00","16:00","18:00","20:00","22:00"];
+
+      new Chart("myChart", {
+        type: "line",
+        data: {
+          labels: xValues,
+          datasets: [{ 
+            data: [860,1140,1060,1060,1070,1110,2830,3910,4830],
+            borderColor: "#E9967A",
+            fill: false
+          }, { 
+            data: [1600,1700,1700,1900,2000,2700,4000,5000,6000],
+            borderColor: "#B22222",
+            fill: false
+          }]
+        },
+        options: {
+          legend: {display: false}
+        }
+      });
+    </script>
+
+</body>
+</html>

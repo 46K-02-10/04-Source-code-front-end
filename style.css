@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    left: 0;
+    right: 0;
+}
+
+#header{
+    height: 60px;
+    background-color: #8A663F;
+    display:flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;  
+
+}
+.logout{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 60px;
+    margin-left: 30px;
+    transform: translateY(13px);
+    margin-right: 19px;
+}
+.nav{
+    display: flex;  
+    right: 0;
+    position: absolute;
+}
+.search_{
+    display: flex;
+    top: 50%;
+    transform: translateY(10px);
+    height: 40px;
+    margin-left: 40px;
+}
+#header .search-icon{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 0 15x;
+    line-height: 43px;
+}
+.search:hover{
+    background-color: rgb(223, 92, 92);
+}
+.search{
+    cursor: pointer;
+    padding: 0 15px;
+    background-color: #EAD6BB;
+}
+#input{
+    width: 350px;
+    font-size: large;
+}
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    color: rgb(33, 20, 23);
+    /* bỏ gạch chân */
+    text-decoration: none;
+    /* line-height: 60px; */
+    padding: 10 24px;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(70, 53, 55);
+    background-color: #EAD6BB;
+    width: 100%;
+    display: inline-block;
+    font-size: 30px;
+
+}
+nav{
+    position: fixed;
+}
+#o1{
+    padding: 20px 70px;
+}
+#o2{
+    padding: 20px 15px;
+}
+#o3{
+    padding: 20px 95px;
+}
+
+#content{
+    margin-top: 55px;
+    /* box-sizing: border-box; */
+    display: flex;
+    /* position: relative; */
+}
+#o4{
+    color: rgb(33, 20, 23);
+    /* bỏ gạch chân */
+    text-decoration: none;
+    /* line-height: 60px; */
+    padding: 10 24px;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(70, 53, 55);
+    background-color: #EAD6BB;
+    width: 100%;
+    display: inline-block;
+    font-size: 30px;
+    padding:20px 10px;
+    text-align: center;
+}
+.content-2{
+    margin-left: 30px;
+    right: 0;
+    width: 50%;
+}
+.foot{
+    position: relative;
+    top: 65%;
+    width: 100%;
+   
+}
+.l button{
+    color: rgb(33, 20, 23);
+    /* bỏ gạch chân */
+    text-decoration: none;
+    /* line-height: 60px; */
+    padding: 10 24px;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(70, 53, 55);
+    background-color: #EAD6BB;
+    width: 100%;
+    display: inline-block;
+    font-size: 30px;
+    border: 1px solid floralwhite;
+    padding: 20px 0;
+}
+#l2 button{
+    background-color: #8A663F;
+    color: floralwhite;
+    font-size: 25px;
+}
+.l{
+    display: flex;
+}
+.content-1{
+    
+}
+#nav{
+    width: 800px
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    padding: 20px 20px;
+}
+.pic{
+    width: 150px;
+}
+.note{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+.menu a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu-all{
+    margin: auto;
+}
+.name{
+    padding: 20px 100px;
+}
+.amount{
+    padding: 20px 25px;
+}
+.price{
+    padding: 20px 115px;
+}
+p{
+    font-size: 23px;
+    font-family: monospace;
+}
+.order{
+    display: -webkit-inline-box;;
+}
+/* .name{
+    width: 369.84px;
+}
+.amount-{
+    width: 80.99px;
+}
+.price {
+    width: 329.07px;
+} */
+.amount-{
+    display: flex;
+}
+.pl{
+    margin: auto;
+}
+.mi{
+    margin: auto;
+}
+
+#cfs:target{
+    display: flex;
+}
+
+#cfd:target{
+    display: flex;
+}
+.order{
+    display: none;
+}
+#ccn:target{
+    display: flex;
+}
+#cfc:target{
+    display: flex;
+}
+#td:target{
+    display: flex;
+}
+#ts:target{
+    display: flex;
+}
+#tt:target{
+    display: flex;
+}
+#tx:target{
+    display: flex;
+}
+#xs:target{
+    display: flex;
+}
+#ds:target{
+    display: flex;
+}
+#dss:target{
+    display: flex;
+}
+#ccns:target{
+    display: flex;
+}
+.close{
+    color: red;
+    margin: auto;
+    font-size: 30px;
+    margin-left: -51px;
+}
+.logout{
+    text-decoration: none;
+    font-size: 30px;
+    color: #A0522D;
+    line-height: 60px;
+    margin-left: 30px;
+    transform: translateY(13px);
+    margin-right: 19px;
+}
