@@ -11,7 +11,7 @@ html{
 }
 #header{
     height: 60px;
-    background-color: #fef8f9;
+    background-color: #8A663F;
     display:flex;
     position: fixed;
     top: 0;
@@ -54,7 +54,7 @@ html{
 .logout{
     text-decoration: none;
     font-size: 30px;
-    color: #B22222;
+    color: #ffffff;
     line-height: 60px;
     margin-left: 30px;
     transform: translateY(13px);
@@ -75,7 +75,7 @@ html{
 .o1{
     width: 100%;
     position: absolute;
-    background-color: #fceaed;
+    background-color: #EAD6BB;
     height: 50px;
     
 }
@@ -100,7 +100,7 @@ html{
 .o2{
     width: 50%;
     position: absolute;
-    background-color: #fceaed;
+    background-color: #EAD6BB;
     height: 50px;
     font-size: 20px;
     line-height: 50px;
@@ -159,7 +159,7 @@ html{
 
 }
 #l2 button{
-    background-color: #A0522D;
+    background-color: #8A663F;
     color: floralwhite;
     font-size: 25px;
 }
@@ -207,3 +207,4 @@ p{
     right: 0;
     position: absolute;
 }
+
